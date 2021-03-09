@@ -1,0 +1,14 @@
+header {
+  background: red;
+  display: flex;
+  justify-content: space-between;
+}
+header .keksBox {
+  background: greenyellow;
+  width: 500px;
+}
+header .keksBox .keks1:nth-child(even) {
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=main.css.map */
