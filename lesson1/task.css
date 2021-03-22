@@ -1,0 +1,68 @@
+header {
+  width: 100%;
+}
+header div {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: url("https://cs6.pikabu.ru/images/big_size_comm/2017-05_6/1495800361112264794.jpg");
+  background-size: cover;
+}
+main div {
+  width: 30%;
+  height: 200px;
+  margin: 10px;
+  opacity: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Segoe UI", sans-serif;
+}
+main .first {
+  background: red;
+}
+main .second {
+  background: orange;
+}
+main .third {
+  background: yellow;
+}
+main .four {
+  background: green;
+}
+main .fifth {
+  background: aqua;
+}
+main .sixth {
+  background: blueviolet;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+footer a {
+  text-underline: none;
+  text-decoration: none;
+}
+footer a:nth-child(1) {
+  color: red;
+}
+footer a:nth-child(2) {
+  color: green;
+}
+footer a:nth-child(3) {
+  color: blue;
+}
+footer a:nth-child(4) {
+  color: yellow;
+}
+
+/*# sourceMappingURL=task.css.map */
