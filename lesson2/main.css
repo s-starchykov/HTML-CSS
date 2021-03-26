@@ -35,7 +35,6 @@ body main div:nth-child(2) ul li {
   border: 3px solid transparent;
   border-left: none;
   border-right: none;
-  list-style: none;
 }
 body main div:nth-child(2) ul li:nth-child(even) {
   background: #625e77;
