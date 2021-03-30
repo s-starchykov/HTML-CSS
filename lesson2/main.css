@@ -16,17 +16,18 @@ body main div:nth-child(1) {
   color: #eb7e7f;
   text-align: center;
 }
-body main div:nth-child(2) {
+body main .menuBox {
   padding: 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-body main div:nth-child(2) ul {
+body main .menuBox .listBlock {
   width: 70%;
-  list-style: none;
+  margin-bottom: 60px;
 }
-body main div:nth-child(2) ul li {
+body main .menuBox .listBlock .listItem {
+  margin: 10px 0 10px 0;
   height: 50px;
   display: flex;
   align-items: center;
@@ -35,27 +36,33 @@ body main div:nth-child(2) ul li {
   border: 3px solid transparent;
   border-left: none;
   border-right: none;
-  list-style: none;
+  border-radius: 10px;
 }
-body main div:nth-child(2) ul li:nth-child(even) {
+body main .menuBox .listBlock .listItem:nth-child(even) {
   background: #625e77;
 }
-body main div:nth-child(2) ul li:hover {
+body main .menuBox .listBlock .listItem:hover {
   border: 3px solid white;
   border-left: none;
   border-right: none;
   background: #403e53;
 }
-body main div:nth-child(2) ul li [type=checkbox]:checked + label {
+body main .menuBox .listBlock .listItem [type=checkbox]:checked + label {
   text-decoration: line-through;
   color: lightgrey;
 }
-body main div:nth-child(2) button {
+body main .menuBox button {
   width: 70%;
   text-align: center;
   background: #4a4f56;
   padding: 10px;
   color: #eb7e7f;
+  font-weight: bold;
+  border: 2px solid #4a4f56;
+  border-radius: 10px;
+}
+body main .menuBox button:hover {
+  border: 2px solid white;
 }
 
 /*# sourceMappingURL=main.css.map */

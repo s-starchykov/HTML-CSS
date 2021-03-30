@@ -1,59 +1,88 @@
-//main {
-//  padding: 50px;
-//  background: #2b81ac;;
+:root {
+  --small: 25%;
+  --medium: 50%;
+  --big: 100%;
+  --wh: 60px;
+
+  * {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+  }
+
+}
+
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
-  body {
-    background: #3399cc;
-    color: white;
+body {
+  background: #3399cc;
+  color: white;
 
-    div {
-      width: 1000px;
-      background: green;
+  .weatherBlock {
+    @include center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+
+
+    h1 {
+      width: var(--big);
+      text-align: left;
     }
 
-    ul {
-      width: 1000px;
-      padding: 0;
-      box-sizing: border-box;
-      margin-left: 0;
-      list-style: none;
-      border: 5px solid white;
-      align-items: center;
-      text-align: center;
+    div {
+      flex-wrap: wrap;
+      border: 0.1px solid white;
+      height: var(--wh);
+      @include center;
 
-      :nth-child(1) {
-        background:green;
+
+      span {
+        text-align: center;
+        position: relative;
       }
 
-      li {
-        box-sizing: border-box;
-        display: inline-block;
-        border: 1px solid white;
-        height: 100px;
-        span {
-          font-size: small;
-          vertical-align: super;
+      .city {
+        width: var(--big);
+      }
+
+      .degree {
+        &:before {
+          content: "C";
+          position: absolute;
+          right: -10px;
         }
 
-      }
+        &:after {
+          content: "o";
+          position: absolute;
+          top: -8px;
+          right: -25px;
+          font-size: 12px;
 
-      .small {
-        width: 25%;
-        //height: 60px;
+        }
       }
+    }
 
-      .medium {
-        width: 50%;
-        //height: 60px;
-      }
+    .small {
+      width: var(--small);
+      //height: 60px;
+    }
 
-      .big {
-        width: 100%;
-        //height: 60px;
+    .medium {
+      width: var(--medium);
+      //height: 60px;
+    }
 
-      }
+    .big {
+      width: var(--big);
 
     }
 
   }
+
+}

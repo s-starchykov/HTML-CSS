@@ -1,42 +1,65 @@
+:root {
+  --small: 25%;
+  --medium: 50%;
+  --big: 100%;
+  --wh: 60px;
+}
+:root * {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
 body {
   background: #3399cc;
   color: white;
 }
-body div {
-  width: 1000px;
-  background: green;
-}
-body ul {
-  width: 1000px;
-  padding: 0;
-  box-sizing: border-box;
-  margin-left: 0;
-  list-style: none;
-  border: 5px solid white;
+body .weatherBlock {
+  display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+}
+body .weatherBlock h1 {
+  width: var(--big);
+  text-align: left;
+}
+body .weatherBlock div {
+  flex-wrap: wrap;
+  border: 0.1px solid white;
+  height: var(--wh);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .weatherBlock div span {
   text-align: center;
+  position: relative;
 }
-body ul :nth-child(1) {
-  background: black;
+body .weatherBlock div .city {
+  width: var(--big);
 }
-body ul li {
-  box-sizing: border-box;
-  display: inline-block;
-  border: 1px solid white;
-  height: 100px;
+body .weatherBlock div .degree:before {
+  content: "C";
+  position: absolute;
+  right: -10px;
 }
-body ul li span {
-  font-size: small;
-  vertical-align: super;
+body .weatherBlock div .degree:after {
+  content: "o";
+  position: absolute;
+  top: -8px;
+  right: -25px;
+  font-size: 12px;
 }
-body ul .small {
-  width: 25%;
+body .weatherBlock .small {
+  width: var(--small);
 }
-body ul .medium {
-  width: 50%;
+body .weatherBlock .medium {
+  width: var(--medium);
 }
-body ul .big {
-  width: 100%;
+body .weatherBlock .big {
+  width: var(--big);
 }
 
 /*# sourceMappingURL=style.css.map */
