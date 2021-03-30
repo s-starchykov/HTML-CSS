@@ -20,17 +20,18 @@ body {
 
     }
 
-    div:nth-child(2) {
+    .menuBox {
       padding: 10px;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
 
-      ul {
+      .listBlock {
         width: 70%;
-        list-style: none;
+        margin-bottom: 60px;
 
-        li {
+        .listItem {
+          margin: 10px 0 10px 0;
           height: 50px;
           display: flex;
           align-items: center;
@@ -39,8 +40,7 @@ body {
           border: 3px solid transparent;
           border-left: none;
           border-right: none;
-
-
+          border-radius: 10px;
 
           &:nth-child(even) {
             background: #625e77;
@@ -58,18 +58,25 @@ body {
             color: lightgrey;
           }
         }
-      }
 
+      }
       button {
         width: 70%;
         text-align: center;
         background: #4a4f56;
         padding: 10px;
         color: #eb7e7f;
+        font-weight: bold;
+        border: 2px solid #4a4f56;
+        border-radius: 10px;
+
+        &:hover {
+          border: 2px solid white;
+
+        }
       }
 
     }
-
 
   }
 
