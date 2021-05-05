@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background-color: transparent;
+    position: absolute;
+    right: 0
+  }
+
+  ::-webkit-scrollbar-button {
+    position: absolute;
+    background-color: #595959;
+    display: none
+  }
+
+  ::-webkit-scrollbar-track {
+    position: absolute;
+    background: 0 0;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    position: absolute;
+    border-radius: 2px;
+    background-color: #595959;
+  }
+}
+
+
+@mixin fontStyle {
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  color: #595959;
+  &.active {
+    font-weight: bold;
+  }
+}
+
+@mixin clearLink {
+  text-decoration: none;
+  text-underline: none;
+  text-transform: uppercase;
+}
+
+@mixin flexCenter($justifyContent, $alignItems, $height, $width) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+  flex-wrap: wrap;
+  height: $height, auto;
+  width: $width;
+}
+
+@mixin hoverEffect {
+  &:hover {
+    transition: all 1ms;
+    font-weight: bold;
+  }
+}
+
+@mixin contentLeft($leftWidth) {
+  & {
+    width: $leftWidth;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+@mixin contentRight($rightWidth, $height, $background) {
+  & {
+    width: $rightWidth;
+    height: $height;
+    background: ($background);
+  }
+}
+
+@mixin footer {
+  footer {
+    background: #5a5a5a;
+    width: 100%;
+    height: 105px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    color: #808080;
+  }
+}
+
+@mixin header {
+  header {
+    position: absolute;
+    z-index: 2;
+
+    width: 100%;
+    margin: 35px 0 0 0;
+
+    .menu {
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+
+      a {
+        @include clearLink;
+        @include fontStyle;
+        @include hoverEffect;
+
+        min-width: 100px;
+      }
+    }
+  }
+}

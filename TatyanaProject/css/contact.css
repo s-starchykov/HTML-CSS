@@ -1,0 +1,33 @@
+.connectMe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.contentRight {
+  font-family: "Open Sans", sans-serif;
+  width: 50%;
+  color: #595959;
+}
+.contentRight h1 {
+  font-size: 48px;
+}
+.contentRight p {
+  width: 80%;
+  font-size: 14px;
+}
+.contentRight button {
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #54B9CF;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: #54B9CF;
+  text-transform: uppercase;
+  height: 32px;
+}
+
+/*# sourceMappingURL=contact.css.map */

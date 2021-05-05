@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.portfolioPageBody {
+  padding: 225px 0 0 0;
+}
+.portfolioPageBody .contentLeft {
+  height: auto;
+}
+.portfolioPageBody .contentLeft {
+  width: 50%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.portfolioPageBody .contentLeft img {
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.portfolioPageBody .contentRight {
+  width: 50%;
+  height: 100%;
+  color: #595959;
+}
+.portfolioPageBody .contentRight .picRight {
+  position: absolute;
+  bottom: 0;
+}
+.portfolioPageBody .contentRight h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolioPageBody .contentRight p {
+  width: 70%;
+  font-size: 14px;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=portfolio.css.map */

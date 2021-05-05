@@ -1,0 +1,356 @@
+* {
+  box-sizing: border-box;
+}
+* ::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+}
+* ::-webkit-scrollbar-button {
+  position: absolute;
+  background-color: #595959;
+  display: none;
+}
+* ::-webkit-scrollbar-track {
+  position: absolute;
+  background: 0 0;
+}
+* ::-webkit-scrollbar-thumb {
+  position: absolute;
+  border-radius: 2px;
+  background-color: #595959;
+}
+
+* {
+  box-sizing: border-box;
+}
+* ::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+}
+* ::-webkit-scrollbar-button {
+  position: absolute;
+  background-color: #595959;
+  display: none;
+}
+* ::-webkit-scrollbar-track {
+  position: absolute;
+  background: 0 0;
+}
+* ::-webkit-scrollbar-thumb {
+  position: absolute;
+  border-radius: 2px;
+  background-color: #595959;
+}
+
+.mainPageBody .contentLeft {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  height: false, auto;
+  width: false;
+}
+.mainPageBody .contentLeft {
+  width: 35%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.mainPageBody .contentLeft .contentLeftBody {
+  width: 85%;
+  height: 420px;
+}
+.mainPageBody .contentLeft .contentLeftBody p {
+  font-size: 47px;
+  margin: 35px 0 0 0;
+}
+.mainPageBody .contentLeft .contentLeftBody .social {
+  padding: 35px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+.mainPageBody .contentRight {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  height: false, auto;
+  width: false;
+}
+.mainPageBody .contentRight {
+  width: 65%;
+  height: 100%;
+  background: #c1e3eb;
+}
+.mainPageBody .contentRight img {
+  height: 420px;
+  border: 5px white solid;
+  border-left: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contactPageBody .contentLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+.contactPageBody .contentLeft {
+  width: 50%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.contactPageBody .contentLeft .contentLeftBody {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 70%, auto;
+  width: 100%;
+}
+.contactPageBody .contentLeft .contentLeftBody .connectMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto, auto;
+  width: 100%;
+  text-transform: uppercase;
+}
+.contactPageBody .contentLeft .contentLeftBody .connectMe a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 25px, auto;
+  width: 25px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background: #54B9CF;
+}
+.contactPageBody .contentLeft .contentLeftBody .connectMe a img {
+  width: 60%;
+}
+.contactPageBody .contentLeft .contentLeftBody .briefCatalog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 458px, auto;
+  width: 80%;
+  padding: 40px 60px;
+  background: #F5F5F5;
+  border-radius: 10px;
+}
+.contactPageBody .contentLeft .contentLeftBody .briefCatalog .briefCatalogItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: calc(100% / 7), auto;
+  width: 100%;
+}
+.contactPageBody .contentLeft .contentLeftBody .briefCatalog .briefCatalogItem a {
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  color: #595959;
+  cursor: pointer;
+  display: flex;
+  width: 26px;
+  position: relative;
+}
+.contactPageBody .contentLeft .contentLeftBody .briefCatalog .briefCatalogItem a.active {
+  font-weight: bold;
+}
+.contactPageBody .contentLeft .contentLeftBody .briefCatalog .briefCatalogItem a img {
+  margin: 0 auto;
+}
+.contactPageBody .contentLeft .contentLeftBody .briefCatalog .briefCatalogItem a img:last-child {
+  position: absolute;
+  bottom: -5px;
+}
+.contactPageBody .contentRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+.contactPageBody .contentRight {
+  width: 50%;
+  height: 100%;
+  background: white;
+}
+.contactPageBody .contentRight .contentRightBody {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 70%, auto;
+  width: 100%;
+}
+.contactPageBody .contentRight .contentRightBody h1 {
+  font-size: 48px;
+}
+.contactPageBody .contentRight .contentRightBody p {
+  width: 60%;
+}
+.contactPageBody .contentRight .contentRightBody button {
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #54B9CF;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: #54B9CF;
+  text-transform: uppercase;
+  height: 32px;
+}
+
+* {
+  box-sizing: border-box;
+}
+* ::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+}
+* ::-webkit-scrollbar-button {
+  position: absolute;
+  background-color: #595959;
+  display: none;
+}
+* ::-webkit-scrollbar-track {
+  position: absolute;
+  background: 0 0;
+}
+* ::-webkit-scrollbar-thumb {
+  position: absolute;
+  border-radius: 2px;
+  background-color: #595959;
+}
+
+.portfolioPageBody {
+  padding: 225px 0 105px 0;
+  height: auto;
+  position: relative;
+}
+.portfolioPageBody .contentLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+.portfolioPageBody .contentLeft {
+  width: 50%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.portfolioPageBody .contentLeft .contentLeftBody {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  width: 80%;
+}
+.portfolioPageBody .contentLeft .contentLeftBody img {
+  width: 100%;
+  margin: 0 0 55px 0;
+}
+.portfolioPageBody .contentRight {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: auto, auto;
+  position: relative;
+}
+.portfolioPageBody .contentRight {
+  width: 50%;
+}
+.portfolioPageBody .contentRight h1 {
+  font-size: 48px;
+  margin: 0 0 20px 0;
+}
+.portfolioPageBody .contentRight p {
+  width: 80%;
+}
+.portfolioPageBody .contentRight .picRight {
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 55px 0;
+}
+.portfolioPageBody .contentRight .picRight img {
+  width: 100%;
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  color: #595959;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+body.active {
+  font-weight: bold;
+}
+body header {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  margin: 35px 0 0 0;
+}
+body header .menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+body header .menu a {
+  text-decoration: none;
+  text-underline: none;
+  text-transform: uppercase;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  color: #595959;
+  min-width: 100px;
+}
+body header .menu a.active {
+  font-weight: bold;
+}
+body header .menu a:hover {
+  transition: all 1ms;
+  font-weight: bold;
+}
+body main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+body footer {
+  background: #5a5a5a;
+  width: 100%;
+  height: 105px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  color: #808080;
+}
+
+/*# sourceMappingURL=main.css.map */

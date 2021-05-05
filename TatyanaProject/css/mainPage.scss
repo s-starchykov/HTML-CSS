@@ -1,0 +1,41 @@
+@import "common";
+
+.mainPageBody {
+  .contentLeft {
+    @include flexCenter(flex-end, center, false, false);
+    @include contentLeft(35%);
+
+    .contentLeftBody {
+      width: 85%;
+      height: 420px;
+
+      p {
+        font-size: 47px;
+        margin: 35px 0 0 0;
+      }
+
+      .social {
+        padding: 35px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        width: 25%;
+      }
+    }
+
+  }
+
+  .contentRight {
+    position: relative;
+    @include contentRight(65%, 100%, #c1e3eb);
+    @include flexCenter(flex-start, center, false, false);
+
+    img {
+      height: 420px;
+      border: 5px white solid;
+      border-left: none;
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+
+}

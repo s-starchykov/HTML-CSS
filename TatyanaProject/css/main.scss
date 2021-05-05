@@ -1,0 +1,26 @@
+@import "common";
+@import "mainPage";
+@import "contact";
+@import "portfolio";
+
+//Common HTML blocks with same css style usage
+body {
+
+  @include fontStyle;
+
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+
+  @include header;
+
+  main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  @include footer
+}
