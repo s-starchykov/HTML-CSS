@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+}
+body header {
+  height: 7%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #4D4D4D;
+}
+body header .nav {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+body header .nav a {
+  text-decoration: none;
+  text-underline: none;
+  color: #FFFFFF;
+}
+body main {
+  background: white;
+  display: flex;
+}
+body main .leftContent {
+  width: 50%;
+  height: 93%;
+}
+body main .leftContent p {
+  font-size: 72px;
+  position: absolute;
+  top: 15%;
+  left: 6%;
+  padding-left: 11%;
+  color: #4D4D4D;
+}
+body main .leftContent p:nth-child(1) {
+  font-size: 24px;
+  position: absolute;
+  top: 18%;
+  padding-left: 11%;
+}
+body main .leftContent .bigK {
+  height: 93%;
+  position: absolute;
+  margin-left: 9%;
+}
+body main .leftContent img {
+  height: 100%;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+body .cards {
+  display: flex;
+  width: 50%;
+  height: 93%;
+}
+body .cards .contentRightTop {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  background: #4D4D4D;
+}
+body .cards .contentRightTop ul {
+  width: 50%;
+}
+body .cards .contentRightTop img {
+  position: relative;
+  width: 50%;
+  box-sizing: border-box;
+}
+body .cards .contentRightBottom {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  background: #4D4D4D;
+}
+body .cards .contentRightBottom ul {
+  width: 50%;
+}
+body .cards .contentRightBottom img {
+  position: relative;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=portgolio.css.map */
