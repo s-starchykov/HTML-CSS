@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-body {
+* {
   box-sizing: border-box;
+}
+
+body {
   margin: 0;
   padding: 0;
   height: 100vh;
   width: 100vw;
-  color: #FFFFFF;
+  overflow: hidden;
   font-family: "Montserrat", sans-serif;
 }
 body header {
@@ -15,81 +18,88 @@ body header {
   justify-content: flex-end;
   align-items: center;
   background: #4D4D4D;
+  padding: 10px;
 }
-body header .nav {
+body header div {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   width: 40%;
 }
-body header .nav a {
+body header div a {
   text-decoration: none;
   text-underline: none;
-  color: #FFFFFF;
+  color: white;
+  margin: 0 10% 0 0;
 }
 body main {
   background: white;
   display: flex;
+  height: 93%;
+  position: relative;
+}
+body main img {
+  margin: 0 0 0 10%;
+  height: 100%;
+  position: absolute;
 }
 body main .leftContent {
   width: 50%;
-  height: 93%;
+  position: relative;
 }
-body main .leftContent p {
-  font-size: 72px;
+body main .leftContent .imageText {
   position: absolute;
   top: 15%;
-  left: 6%;
-  padding-left: 11%;
+  left: 40%;
+}
+body main .leftContent .imageText p {
+  font-size: 72px;
   color: #4D4D4D;
+  margin: 0;
 }
-body main .leftContent p:nth-child(1) {
+body main .leftContent .imageText p:first-child {
   font-size: 24px;
-  position: absolute;
-  top: 18%;
-  padding-left: 11%;
 }
-body main .leftContent .bigK {
-  height: 93%;
-  position: absolute;
-  margin-left: 9%;
-}
-body main .leftContent img {
-  height: 100%;
-  box-sizing: border-box;
-  margin-top: 0;
-}
-body .cards {
-  display: flex;
+body main .rightContent {
   width: 50%;
-  height: 93%;
 }
-body .cards .contentRightTop {
+body main .rightContent .contentRightTop,
+body main .rightContent .contentRightBottom {
   display: flex;
-  width: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   height: 50%;
+}
+body main .rightContent .card {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 55%;
+  height: 60%;
   background: #4D4D4D;
 }
-body .cards .contentRightTop ul {
-  width: 50%;
+body main .rightContent .card img {
+  position: absolute;
+  width: 80%;
+  left: -40%;
+  top: -20%;
 }
-body .cards .contentRightTop img {
-  position: relative;
+body main .rightContent .card p {
+  position: absolute;
+  top: -20%;
+  right: 0;
   width: 50%;
-  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
 }
-body .cards .contentRightBottom {
-  display: flex;
+body main .rightContent .card ul {
   width: 50%;
-  height: 50%;
-  background: #4D4D4D;
-}
-body .cards .contentRightBottom ul {
-  width: 50%;
-}
-body .cards .contentRightBottom img {
-  position: relative;
-  width: 50%;
-  box-sizing: border-box;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=portgolio.css.map */
