@@ -48,7 +48,7 @@ body main .leftContent {
 }
 body main .leftContent .imageText {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 40%;
 }
 body main .leftContent .imageText p {
