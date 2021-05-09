@@ -1,0 +1,59 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+  font-family: "Montserrat", sans-serif;
+  color: #583D37;
+}
+body header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header a {
+  text-decoration: none;
+  text-underline: none;
+  font-size: 24px;
+  color: #583D37;
+}
+body header a img {
+  margin: 0 50px 0 50px;
+}
+body main {
+  background: #FFF8DE;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+body main .inner {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+body main .inner .leftContent {
+  width: 50%;
+  margin: 0 auto;
+}
+body main .inner .rightContent {
+  width: 50%;
+}
+body main .inner .rightContent p {
+  margin: 0;
+}
+body main .inner .rightContent p:nth-of-type(1) {
+  font-size: 48px;
+}
+body main .inner .rightContent p:nth-of-type(2) {
+  font-size: 48px;
+  text-align: right;
+}
+body main .inner .rightContent p:nth-of-type(3) {
+  font-size: 35px;
+}
+body main .inner .rightContent p:nth-of-type(4) {
+  font-size: 28px;
+}
+body main .inner .rightContent button {
+  background: white;
+}
+
+/*# sourceMappingURL=main.css.map */
