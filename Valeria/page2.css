@@ -55,6 +55,14 @@ body main .inner section .rightContent p {
 body main .inner section .rightContent p:nth-child(2) {
   font-size: 30px;
 }
+body main .inner section .rightContent p button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: none;
+  font-size: 18px;
+  color: grey;
+}
 body main .inner .gDesign {
   display: flex;
   justify-content: space-around;
