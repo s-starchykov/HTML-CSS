@@ -3,6 +3,9 @@ body {
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   font-family: 'Montserrat', sans-serif;
   color: #583D37;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
 
   header {
     display: flex;
@@ -46,6 +49,7 @@ body {
         width: 50%;
         p {
           margin: 0;
+          padding: 0;
 
 
           &:nth-of-type(1) {
@@ -65,11 +69,27 @@ body {
           &:nth-of-type(4) {
             font-size: 28px;
           }
+          i {
+            font-size: 27px;
+          }
 
         }
 
         button {
+          margin-top: 10%;
           background: white;
+          border: none;
+          display: flex;
+          align-items: center;
+          justify-content:center;
+          a {
+            text-decoration: none;
+            text-underline: none;
+            font-size: 24px;
+            color: #583D37;
+           margin: 20px 40px 20px 40px;
+            background: white;
+          }
         }
       }
 

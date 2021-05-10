@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
+
 }
+
 body {
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   font-family: 'Montserrat', sans-serif;
@@ -24,24 +26,24 @@ body {
     }
 
   }
+
   //
   main {
     background: #FFF8DE;
     height: 100%;
     display: flex;
     justify-content: center;
-      .central {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        font-size: 48px;
 
-      }
+    .central {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-size: 48px;
+
+    }
 
     .inner {
       width: 80%;
-
-
 
 
       section {
@@ -59,39 +61,65 @@ body {
 
         .rightContent {
           width: 50%;
+          display: flex;
+          align-items: center;
+          position: relative;
 
           p {
             font-size: 35px;
+            position: absolute;
+            top: 0;
+
             &:nth-child(2) {
               font-size: 30px;
+              align-self: center;
+              position: relative;
             }
 
+            button {
+              width: 54px;
+              height: 54px;
+              border-radius: 50%;
+              border: none;
+              font-size: 18px;
+              color:#FFF8DE;
+              background: #a68b63;
+
+            }
 
           }
         }
       }
+
       .gDesign {
         display: flex;
-        justify-content: space-around;
+        justify-content:center;
       }
+
       p {
-        width: 100%;
         font-size: 35px;
       }
+
       .rembrand {
-        box-sizing: border-box;
+        //box-sizing: border-box;
         display: flex;
         justify-content: center;
-        width: 100%;
-        height: auto;
+        //height: auto;
         flex-wrap: wrap;
         align-items: flex-start;
+        padding: 0;
+
         p {
           font-size: 35px;
+
+          padding: 0;
           margin: 0;
         }
-        .right {
+        img {
+          padding: 0;
+          margin: 0;
         }
+
 
       }
     }

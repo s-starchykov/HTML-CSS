@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+  font-family: "Montserrat", sans-serif;
+  color: #583D37;
+}
+body header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header a {
+  text-decoration: none;
+  text-underline: none;
+  font-size: 24px;
+  color: #583D37;
+}
+body header a img {
+  margin: 0 50px 0 50px;
+}
+body main {
+  background: #FFF8DE;
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+}
+body main .inner {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
+body main .inner p {
+  width: 100%;
+  font-size: 35px;
+}
+body main .inner section {
+  position: relative;
+  width: 50%;
+  height: 50%;
+}
+body main .inner section i {
+  font-size: 67px;
+}
+body main .inner section p {
+  font-size: 28px;
+}
+
+/*# sourceMappingURL=contacts.css.map */
