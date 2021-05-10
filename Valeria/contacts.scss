@@ -1,14 +1,18 @@
 * {
   box-sizing: border-box;
 
+
 }
-
-body {
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-  font-family: 'Montserrat', sans-serif;
-  color: #583D37;
-
-
+  body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    font-family: 'Montserrat', sans-serif;
+    color: #583D37;
+    height: 100vh;
+    width: 100vw;
   header {
     display: flex;
     justify-content: center;
@@ -30,6 +34,7 @@ body {
     display: flex;
     justify-content: center;
     font-weight: 300;
+    height: 90vh;
 
     .inner{
       width: 80%;
@@ -52,6 +57,6 @@ body {
           font-size: 28px;
         }
       }
-  }
+    }
   }
 }

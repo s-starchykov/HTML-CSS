@@ -1,11 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
   font-family: "Montserrat", sans-serif;
   color: #583D37;
+  box-sizing: border-box;
+  width: 100vw;
 }
 body header {
   display: flex;
@@ -74,25 +72,39 @@ body main .inner section .rightContent p button {
 body main .inner .gDesign {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
-body main .inner p {
+body main .inner .gDesign .pictures {
+  display: flex;
+}
+body main .inner .gDesign p {
+  width: 100%;
   font-size: 35px;
+  margin-top: 0;
+  padding-top: 0;
+}
+body main .inner .line {
+  display: flex;
+  justify-content: flex-start;
+}
+body main .inner .line hr {
+  display: flex;
+  width: 60%;
 }
 body main .inner .rembrand {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
-  padding: 0;
 }
 body main .inner .rembrand p {
-  font-size: 35px;
-  padding: 0;
+  font-size: 30px;
   margin: 0;
+  padding: 0;
 }
-body main .inner .rembrand img {
+body main .inner img {
   padding: 0;
   margin: 0;
+  border: none;
 }
 
 /*# sourceMappingURL=portfolio.css.map */
