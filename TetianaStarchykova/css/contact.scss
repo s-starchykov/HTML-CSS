@@ -58,7 +58,7 @@
     @include contentRight(50%, 100%, white);
 
     .contentRightBody {
-      @include flexCenter(center, null, 70%, 100%);
+      @include flexCenter(null, null, 70%, 100%);
 
       h1 {
         font-size: 48px;
@@ -69,16 +69,16 @@
       }
 
       button {
-        margin-top: 8%;
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #54B9CF;
+        background: $accentColorBlue;
         color: #FFFFFF;
         border-radius: 5px;
-        border: #54B9CF;
+        border: $accentColorBlue;
         text-transform: uppercase;
-        height: 32px;
+        height: 40px;
+        width: 305px;
       }
     }
   }

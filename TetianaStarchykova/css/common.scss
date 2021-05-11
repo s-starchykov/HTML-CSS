@@ -1,3 +1,5 @@
+$accentColorBlue: #54B9CF;
+
 * {
   box-sizing: border-box;
 
@@ -74,12 +76,11 @@
   }
 }
 
-@mixin footer {
+@mixin footer($width) {
   footer {
     background: #5a5a5a;
-    width: 100%;
+    width: $width;
     height: 105px;
-    position: absolute;
     bottom: 0;
     display: flex;
     justify-content: space-around;
