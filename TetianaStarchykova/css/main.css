@@ -289,8 +289,8 @@
   height: calc(50% - 50px);
 }
 .portfolioPageBody .contentRight .textContent h1 {
-  font-size: 48px;
-  margin: 0 0 20px 0;
+  font-size: 46px;
+  margin: 0;
 }
 .portfolioPageBody .contentRight .textContent p {
   width: 80%;
