@@ -24,13 +24,18 @@
     @include contentRight(50%, null, null);
     position: relative;
 
-    h1 {
-      font-size: 48px;
-      margin: 0 0 20px 0;
-    }
+    .textContent {
+      overflow-x: scroll;
+      height: 50%;
 
-    p {
-      width: 80%;
+      h1 {
+        font-size: 48px;
+        margin: 0 0 20px 0;
+      }
+
+      p {
+        width: 80%;
+      }
     }
 
     .picRight {

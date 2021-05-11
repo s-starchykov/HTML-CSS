@@ -274,11 +274,15 @@
 .portfolioPageBody .contentRight {
   width: 50%;
 }
-.portfolioPageBody .contentRight h1 {
+.portfolioPageBody .contentRight .textContent {
+  overflow-x: scroll;
+  height: 50%;
+}
+.portfolioPageBody .contentRight .textContent h1 {
   font-size: 48px;
   margin: 0 0 20px 0;
 }
-.portfolioPageBody .contentRight p {
+.portfolioPageBody .contentRight .textContent p {
   width: 80%;
 }
 .portfolioPageBody .contentRight .picRight {
