@@ -1,12 +1,17 @@
-body {
-  @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+}
+
+body {
   color: #583D37;
   overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100vw;
+  height: 100vh;
 }
 body header {
   display: flex;
@@ -39,7 +44,9 @@ body main .inner {
 }
 body main .inner .leftContent {
   width: 50%;
-  margin: 0 auto;
+}
+body main .inner .leftContent img {
+  width: 100%;
 }
 body main .inner .rightContent {
   width: 50%;
@@ -72,6 +79,7 @@ body main .inner .rightContent button {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 0 30px 0 #f2d5aa;
 }
 body main .inner .rightContent button a {
   text-decoration: none;

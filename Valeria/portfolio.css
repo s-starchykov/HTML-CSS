@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
   @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
   font-family: "Montserrat", sans-serif;
@@ -28,6 +34,9 @@ body main {
   display: flex;
   justify-content: center;
 }
+body main * img {
+  box-shadow: 0 0 30px 0 #F2D5AA;
+}
 body main .central {
   display: flex;
   justify-content: center;
@@ -43,25 +52,29 @@ body main .inner section {
 }
 body main .inner section .leftContent {
   width: 50%;
+  padding: 25px;
 }
 body main .inner section .leftContent img {
   width: 100%;
 }
 body main .inner section .rightContent {
   width: 50%;
+  padding: 25px;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   position: relative;
 }
 body main .inner section .rightContent p {
+  margin: 0;
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+body main .inner section .rightContent p:nth-child(1) {
   font-size: 35px;
   position: absolute;
-  top: 0;
-}
-body main .inner section .rightContent p:nth-child(2) {
-  font-size: 30px;
-  align-self: center;
-  position: relative;
+  top: 25px;
 }
 body main .inner section .rightContent p button {
   width: 54px;
@@ -71,6 +84,7 @@ body main .inner section .rightContent p button {
   font-size: 18px;
   color: #FFF8DE;
   background: #a68b63;
+  margin: 10px;
 }
 body main .inner .gDesign {
   display: flex;
@@ -79,6 +93,9 @@ body main .inner .gDesign {
 }
 body main .inner .gDesign .pictures {
   display: flex;
+}
+body main .inner .gDesign .pictures img {
+  margin: 30px;
 }
 body main .inner .gDesign p {
   width: 100%;
@@ -92,22 +109,18 @@ body main .inner .line {
 }
 body main .inner .line hr {
   width: 60%;
-  margin: 0;
+  margin: 65px 0;
+  border: 3px solid #F2D5AA;
 }
 body main .inner .rembrand {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  justify-content: space-around;
+  margin-bottom: 150px;
 }
 body main .inner .rembrand p {
-  font-size: 30px;
-  margin: 0;
+  font-size: 35px;
   padding: 0;
-}
-body main .inner img {
-  padding: 0;
-  margin: 0;
-  border: none;
 }
 
 /*# sourceMappingURL=portfolio.css.map */
