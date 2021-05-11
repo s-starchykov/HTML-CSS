@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: "Vollkorn SC", serif;
+}
+body header {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body header h1 {
+  height: 60%;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+body header div {
+  width: 100%;
+  height: 40%;
+  border: 2px solid #C5AD34;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Nunito", sans-serif;
+}
+body header div a {
+  text-decoration: none;
+  text-underline: none;
+  color: black;
+}
+body main {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .section {
+  height: 425px;
+  position: relative;
+  width: 35%;
+  border: 2px solid #DBCC80;
+}
+body main .section .textContentBox {
+  background: #EB8484;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: -10%;
+  right: -10%;
+  padding: 20px;
+}
+body main .section .textContentBox .textContent {
+  margin: 0;
+  height: 100%;
+  top: -15%;
+  position: absolute;
+}
+body main .section .textContentBox .textContent span {
+  display: flex;
+  align-items: flex-start;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  color: white;
+  height: calc(100% / 6 * 1.5);
+}
+body main .section .textContentBox .textContent span::before {
+  content: "";
+  /* Insert content that looks like bullets */
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 10px;
+}
+body main .section .textContentBox .textContent .circle::before {
+  background: #EB8484;
+  /* Or a color you prefer */
+}
+body main .section .textContentBox .textContent .white::before {
+  background: white;
+}
+
+/*# sourceMappingURL=contacts.css.map */

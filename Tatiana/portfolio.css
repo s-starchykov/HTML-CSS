@@ -1,0 +1,135 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: "Vollkorn SC", serif;
+}
+body header {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body header h1 {
+  height: 60%;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+body header div {
+  width: 100%;
+  height: 40%;
+  border: 2px solid #C5AD34;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Nunito", sans-serif;
+}
+body header div a {
+  text-decoration: none;
+  text-underline: none;
+  color: black;
+}
+body main {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0 0 0;
+}
+body main .left {
+  width: 30%;
+  height: 100%;
+}
+body main .left ul {
+  list-style: none;
+  /* Remove list bullets */
+  padding: 0;
+  margin: 0 0 0 50px;
+}
+body main .left ul li {
+  padding-left: 16px;
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+body main .left ul li::before {
+  line-height: 0.5;
+  font-size: 100px;
+  font-weight: bold;
+  content: "•";
+  /* Insert content that looks like bullets */
+  padding-right: 8px;
+  color: transparent;
+  /* Or a color you prefer */
+}
+body main .left ul li:hover {
+  font-weight: bold;
+}
+body main .left ul .circle::before {
+  color: #EB8484;
+  /* Or a color you prefer */
+}
+body main .right {
+  width: 70%;
+  height: 100%;
+}
+body main .right .contentRight {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body main .right .contentRight div {
+  height: 80%;
+  position: relative;
+}
+body main .right .contentRight div:nth-child(1) {
+  width: 495px;
+}
+body main .right .contentRight div:nth-child(1) img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: -10%;
+  right: -10%;
+}
+body main .right .contentRight div:nth-child(2) {
+  width: 275px;
+}
+body main .right .contentRight div:nth-child(2) img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: -10%;
+  right: -10%;
+}
+body main .right .top {
+  height: 60%;
+}
+body main .right .top div {
+  background: white;
+  border: 2px solid #DBCC80;
+}
+body main .right .bottom {
+  height: 40%;
+}
+body main .right .bottom div {
+  background: #E9C3C3;
+  border: 2px solid transparent;
+}
+
+/*# sourceMappingURL=portfolio.css.map */
