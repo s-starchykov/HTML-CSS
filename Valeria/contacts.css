@@ -1,12 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
+  font-weight: 300;
   @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
   font-family: "Montserrat", sans-serif;
   color: #583D37;
@@ -31,29 +28,27 @@ body main {
   background: #FFF8DE;
   display: flex;
   justify-content: center;
-  font-weight: 300;
-  height: 90vh;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body main p {
+  width: 100%;
+  font-size: 35px;
 }
 body main .inner {
   width: 80%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  align-self: center;
 }
-body main .inner p {
-  width: 100%;
-  font-size: 35px;
-}
-body main .inner section {
-  position: relative;
+body main .inner .section {
   width: 50%;
-  height: 50%;
 }
-body main .inner section i {
+body main .inner .section i {
   font-size: 67px;
 }
-body main .inner section p {
+body main .inner .section p {
   font-size: 28px;
 }
 

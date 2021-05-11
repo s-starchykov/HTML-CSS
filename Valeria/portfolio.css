@@ -4,6 +4,9 @@ body {
   color: #583D37;
   box-sizing: border-box;
   width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 body header {
   display: flex;
@@ -88,8 +91,8 @@ body main .inner .line {
   justify-content: flex-start;
 }
 body main .inner .line hr {
-  display: flex;
   width: 60%;
+  margin: 0;
 }
 body main .inner .rembrand {
   display: flex;

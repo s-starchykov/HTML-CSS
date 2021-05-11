@@ -4,6 +4,9 @@ body {
   color: #583D37;
   box-sizing: border-box;
   width:100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 
   header {
     display: flex;
@@ -105,8 +108,8 @@ body {
         display: flex;
         justify-content: flex-start;
          hr {
-           display: flex;
            width: 60%;
+           margin: 0;
          }
       }
 
