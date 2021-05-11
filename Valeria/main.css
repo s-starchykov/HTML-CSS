@@ -48,6 +48,7 @@ body main .inner .rightContent p:nth-of-type(1) {
   font-size: 48px;
 }
 body main .inner .rightContent p:nth-of-type(2) {
+  margin-right: 50%;
   font-size: 48px;
   text-align: right;
 }
@@ -75,6 +76,7 @@ body main .inner .rightContent button a {
   color: #583D37;
   margin: 20px 40px 20px 40px;
   background: white;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=main.css.map */
