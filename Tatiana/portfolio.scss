@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: 'Vollkorn SC', serif;
+
+  header {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    h1 {
+      height: 60%;
+      font-size: 36px;
+      font-weight: 400;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      margin: 0;
+    }
+
+    div {
+      width: 100%;
+      height: 40%;
+      border: 2px solid #C5AD34;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-family: 'Nunito', sans-serif;
+
+      a {
+        text-decoration: none;
+        text-underline: none;
+        color: black;
+      }
+    }
+  }
+
+  main {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0 0 0;
+
+    .left {
+      width: 30%;
+      height: 100%;
+
+      ul {
+        list-style: none; /* Remove list bullets */
+        padding: 0;
+        margin: 0 0 0 50px;
+
+        li {
+          padding-left: 16px;
+          display: flex;
+          font-size: 24px;
+          align-items: center;
+          font-family: 'Raleway', sans-serif;
+
+          &::before {
+            line-height: 0.5;
+            font-size: 100px;
+            font-weight: bold;
+            content: "•"; /* Insert content that looks like bullets */
+            padding-right: 8px;
+            color: transparent; /* Or a color you prefer */
+          }
+
+          &:hover {
+            font-weight: bold;
+          }
+        }
+
+        .circle::before {
+          color: #EB8484; /* Or a color you prefer */
+        }
+      }
+    }
+
+    .right {
+      width: 70%;
+      height: 100%;
+
+      .contentRight {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        div {
+          height: 80%;
+          position: relative;
+
+          &:nth-child(1) {
+            width: 495px;
+
+            img {
+              height: 100%;
+              width: 100%;
+              position: absolute;
+              top: -10%;
+              right: -10%;
+            }
+          }
+
+          &:nth-child(2) {
+            width: 275px;
+
+            img {
+              height: 100%;
+              width: 100%;
+              position: absolute;
+              top: -10%;
+              right: -10%;
+            }
+          }
+        }
+      }
+
+      .top {
+        height: 60%;
+
+        div {
+          background: white;
+          border: 2px solid #DBCC80;
+        }
+      }
+
+      .bottom {
+        height: 40%;
+
+        div {
+          background: #E9C3C3;
+          border: 2px solid transparent;
+        }
+      }
+    }
+  }
+}
